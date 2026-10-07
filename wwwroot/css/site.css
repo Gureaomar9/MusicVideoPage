@@ -1,0 +1,67 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+/* Custom background color and font for the page */
+body {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for the JavaScript Animation */
+#animationContainer {
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    background-color: #0f3460;
+    position: relative;
+    margin: 15px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Moving Box Element */
+#animateBox {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    background-color: #e94560;
+    border-radius: 6px;
+}
+
+/* Embedded Video Styling */
+.video-wrapper iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    max-width: 100%;
+}
